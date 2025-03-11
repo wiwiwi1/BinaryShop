@@ -1,0 +1,59 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-image: url("img/pix.gif");
+    background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-attachment: fixed; 
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #580a38;
+  }
+  
+  
+  form {
+    width: 350px;
+    height: 370px;
+    background-color: Pink;
+    padding-top: 20px;
+    margin: 50px auto;
+    box-shadow: -10px 20px 15px 10px rgb(77, 44, 54);
+  }
+  
+  h2 {
+    color: DarkMagenta;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  input {
+    font-size: 16px;
+    padding: 8px;
+    display: flex;
+    margin: 10px auto;
+  }
+  
+  label {
+    font-size: 20px;
+    display: block;
+    margin: 15px;
+    text-align: center;
+  }
+  
+  input[type= "button"] {
+    width: 100px;
+    margin-top: 8px;
+    font-size: 20px;
+    display: block;
+    cursor: pointer;
+  }
+  
+  input[type= "button"] :hover {
+    background-color: Gainsboro;
+  }

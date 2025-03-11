@@ -1,0 +1,70 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-image: url("img/uwu.gif");
+    background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-attachment: fixed; 
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+}
+a {
+    color:#580a38;
+    font-size: 38px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    margin: 10px;
+    color: #ecd0d6;
+  }
+
+  h2{
+    text-align: center;
+    font-size: 38px;
+    color: #580a38;
+  }
+
+   .Producto {
+    background-color: #965f68;
+    border: 5px solid #580a38;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    transition: transform 1s;
+}
+
+.Producto:hover{
+    transform: scale(1.1);
+}
+  
+ .imagen {
+    width: 200px;
+    height: auto;
+}
+
+h3{
+    color:#ecd0d6
+}
+
+h4{
+    color:#ecd0d6
+}
+
+aside{
+    width: 200vh;
+    height: 100px;
+    background-color: #965f68;
+    border: 5px solid #580a38;
+    padding-top: 20px;
+    margin: 50px auto;
+
+}
+
+button{
+    background-color: #ecd0d6; 
+}

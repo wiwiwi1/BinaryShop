@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BynaryShop</title>
+    <link rel="stylesheet" href="vendedoor.css">
+</head>
+<body>
+    <div id="Tiendaseccion">
+        <h1>Añadir Producto</h1>
+        <button onclick="window.location.href='Comprador.html'">Volver a Productos</button>
+        <button onclick="window.location.href='index.html'">Cerrar Sesión</button>
+
+        <div id="anadirProductos">
+            <input type="text" id="nombreproducto" placeholder="Nombre del Producto">
+            <input type="number" id="precio" placeholder="Precio">
+            <input type="number" id="unidades" placeholder="Unidades Disponibles">
+            <input type="file" id="imagen" accept="image/*">
+            <button onclick="addProduct()">Añadir Producto</button>
+        </div>
+    </div>
+
+    <script src="vendedoor.js"></script>
+</body>
+</html>

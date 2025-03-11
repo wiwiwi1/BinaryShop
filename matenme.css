@@ -1,0 +1,22 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-image: url("img/pix.gif");
+    background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-attachment: fixed; 
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #580a38;
+  }
+
+  a{
+    color:#e9d9e2;
+    font-size: 38px;
+  }
+     

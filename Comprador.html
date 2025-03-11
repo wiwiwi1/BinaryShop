@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BinaryShop </title>
+    <link rel="stylesheet" href="comprador.css">
+  </head>
+  <body>
+    <head>
+        <div class="cositoaladerecha">
+          <aside>
+            <header> <h1 class="Logo">BinaryShop</h1> </header>
+            <nav>
+          </aside>
+                    <main>
+                    <h2 class="TodosProductos" id="TodosProductos" >Todos los productos </h2>
+                    <div id="productostienda" class="productostienda">
+                    </div>
+                    
+
+                      <div class="Producto">
+                        <img class="imagen" src="img/1.jpg" alt="" >
+                        <h3 class="nombreproducto">Eco-Cepillo Dental</h3>
+                        <h4 class="detallesproducto">Cepillo de bambú biodegradable con cerdas de carbón activado.</h4>
+                        <h4 class="detallesproducto">Disponibles: 100 unidades.</h4>
+                        <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                        <h3 class="precio"> 5.99$</h3>
+                      </div>
+
+                      <div class="Producto">
+                        <img class="imagen" src="img/2.jpg" alt="" >
+                        <h3 class="nombreproducto">Botella de Agua Auto-Limpiable</h3>
+                        <h4 class="detallesproducto">Botella con luz UV integrada para purificar el agua.</h4>
+                        <h4 class="detallesproducto">Disponibles: 50 unidades.</h4>
+                        <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                        <h3 class="precio"> 29.99$</h3>
+                      </div>
+
+                      <div class="Producto">
+                        <img class="imagen" src="img/3.jpg" alt="" >
+                        <h3 class="nombreproducto">Pluma de Borrado Instantáneo</h3>
+                        <h4 class="detallesproducto">Pluma que borra tinta con un solo clic, sin dejar rastro.</h4>
+                        <h4 class="detallesproducto">Disponibles: 200 unidades.</h4>
+                        <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                        <h3 class="precio"> 9.99$</h3>
+                      </div>
+
+                      <div class="Producto">
+                        <img class="imagen" src="img/4.jpg" alt="" >
+                        <h3 class="nombreproducto">Mochila Solar Cargadora</h3>
+                        <h4 class="detallesproducto">Mochila con panel solar integrado para cargar dispositivos móviles.</h4>
+                        <h4 class="detallesproducto">Disponibles: 25 unidades.</h4>
+                        <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                        <h3 class="precio"> 79.99$</h3>
+                      </div>
+
+                      <div class="Producto">
+                        <img class="imagen" src="img/5.jpg" alt="" >
+                        <h3 class="nombreproducto">Audífonos de Traducción Simultánea</h3>
+                        <h4 class="detallesproducto">Audífonos que traducen idiomas en tiempo real.</h4>
+                        <h4 class="detallesproducto">Disponibles: 10 unidades.</h4>
+                        <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                        <h3 class="precio"> 149.99$</h3>
+                      </div>
+
+                      <div class="Producto">
+                        <img class="imagen" src="img/6.jpg" alt="" >
+                        <h3 class="nombreproducto">Almohada de Masaje Inteligente</h3>
+                        <h4 class="detallesproducto">Almohada que se adapta a tu cuerpo y proporciona masajes personalizados.</h4>
+                        <h4 class="detallesproducto">Disponibles: 30 unidades.</h4>
+                        <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                        <h3 class="precio"> 69.99$</h3>
+                      </div>
+
+                      <div class="Producto">
+                        <img class="imagen" src="img/7.jpg" alt="" >
+                        <h3 class="nombreproducto">Lámpara de Escritorio con Carga Inalámbrica</h3>
+                        <h4 class="detallesproducto">Lámpara que carga tu teléfono mientras ilumina tu espacio.</h4>
+                        <h4 class="detallesproducto">Disponibles: 40 unidades.</h4>
+                        <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                        <h3 class="precio"> 49.99$</h3>
+                      </div>
+
+                      <div class="Producto">
+                        <img class="imagen" src="img/8.jpg" alt="" >
+                        <h3 class="nombreproducto">Guantes de Realidad Virtual Táctiles</h3>
+                        <h4 class="detallesproducto">Guantes que te permiten sentir objetos en la realidad virtual.</h4>
+                        <h4 class="detallesproducto">Disponibles: 5 unidades.</h4>
+                        <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                        <h3 class="precio"> 199.99$</h3>
+                      </div>
+
+                      <div class="Producto">
+                        <img class="imagen" src="img/9.jpg" alt="" >
+                        <h3 class="nombreproducto">Cámara de Seguridad con Reconocimiento Facial</h3>
+                        <h4 class="detallesproducto">Cámara que identifica a las personas y envía alertas.</h4>
+                        <h4 class="detallesproducto">Disponibles: 15 unidades.</h4>
+                        <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                        <h3 class="precio"> 89.99$</h3>
+                      </div>
+
+                      <div class="Producto">
+                        <img class="imagen" src="img/10.jpg" alt="" >
+                        <h3 class="nombreproducto">Robot Aspirador con Mapeo Inteligente</h3>
+                        <h4 class="detallesproducto">Aspirador que limpia tu casa de forma autónoma, creando mapas.</h4>
+                        <h4 class="detallesproducto">Disponibles: 8 unidades.</h4>
+                        <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                        <h3 class="precio"> 249.99$</h3>
+                      </div>
+
+                      <div class="Producto">
+                        <img class="imagen" src="img/11.jpg" alt="" >
+                        <h3 class="nombreproducto">Bicicleta Eléctrica Plegable</h3>
+                        <h4 class="detallesproducto">Bicicleta que se pliega para facilitar su transporte.</h4>
+                        <h4 class="detallesproducto">Disponibles: 3 unidades.</h4>
+                        <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                        <h3 class="precio"> 599.99$</h3>
+                      </div>
+
+                      <div class="Producto">
+                        <img class="imagen" src="img/12.jpg" alt="" >
+                        <h3 class="nombreproducto">Reloj Inteligente con Monitor de Sueño</h3>
+                        <h4 class="detallesproducto">Reloj que analiza tu sueño y te ayuda a mejorarlo.</h4>
+                        <h4 class="detallesproducto">Disponibles: 20 unidades.</h4>
+                        <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                        <h3 class="precio"> 129.99$</h3>
+                      </div>
+
+                      <div class="Producto">
+                        <img class="imagen" src="img/13.jpg" alt="" >
+                        <h3 class="nombreproducto">Impresora que cabe en tu bolsillo y te permite imprimir objetos pequeños.e</h3>
+                        <h4 class="detallesproducto">Botella con luz UV integrada para purificar el agua.</h4>
+                        <h4 class="detallesproducto">Disponibles: 2 unidades.</h4>
+                        <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                        <h3 class="precio"> 349.99$</h3>
+                      </div>
+
+                      <div class="Producto">
+                        <img class="imagen" src="img/14.jpg" alt="" >
+                        <h3 class="nombreproducto">Kit de Cultivo Hidropónico Casero</h3>
+                        <h4 class="detallesproducto">Kit para cultivar tus propias hierbas y verduras en casa.</h4>
+                        <h4 class="detallesproducto">Disponibles: 25 unidades.</h4>
+                        <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                        <h3 class="precio"> 59.99$</h3>
+                      </div>
+
+                      <div class="Producto">
+                        <img class="imagen" src="img/15.jpg" alt="" >
+                        <h3 class="nombreproducto">Dron con Cámara 4K y Estabilización</h3>
+                        <h4 class="detallesproducto">Dron que graba videos y toma fotos de alta calidad.</h4>
+                        <h4 class="detallesproducto">Disponibles: 6 unidades.</h4>
+                        <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+                        <h3 class="precio"> 499.99$</h3>
+                      </div>
+                       <a href="carrito.html"> Carrito <span class="Numerodeproductos">0</span> </a><br/>
+                     <a href='index.html'">Cerrar Sesión</a><br/>
+                              
+                    </div>
+                </main>
+            
+      
+              </ul>
+            </nav>
+        </div>
+        <script src="comprador.js"></script>
+</body>
+
